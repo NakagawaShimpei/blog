@@ -1,0 +1,6 @@
+baseURL = "https://NakagawaShimpei.github.io/blog/"
+languageCode = "ja-jp"
+title = "My New Hugo Site"
+theme = "gohugo-theme-ananke"
+publishDir = "docs"  ######################### 追加
+canonifyurls = true  ######################## 追加(相対URLを絶対URLに変換できるようにします。)
