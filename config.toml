@@ -1,6 +1,6 @@
 baseURL = "https://NakagawaShimpei.github.io/blog/"
 languageCode = "ja-jp"
-title = "My New Hugo Site"
+title = "技術ブログ"
 theme = "gohugo-theme-ananke"
 publishDir = "docs"
 canonifyurls = true
