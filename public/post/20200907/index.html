@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>SonarQube,ODSC - ぺぇぶろぐ</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="SonarQube,ODSC" />
+<meta property="og:description" content="1.SonarQube SonarSource社が主に開発を行っている統合的なプログラム品質管理を行える統合品質管理ツール
+SonarQube　バグの発見やバグっぽい箇所を見つけてくれたり、コードの重複量なんかを出してくれる。
+2. ODSC プロジェクトマネジメントの用語 O(objectives),D(Deliverables),SC(Success Criteria)をつないだもの
+O(objectives) プロジェクトの「目的」のこと。 このプロジェクトにおいて何をしたいか、どのような状態になっていたいかなどが当てはまる。
+D(Deliverables) プロジェクトの「成果物」のこと。 ・ システムの設計書 ・ 納品するシステム ・ マニュアル など。 目的を達成するために何が必要なのかをしっかり定義しておく必要がある。 成果物があれば目的が達成できるかを検討する。
+SC(Success Criteria) プロジェクトの「成功基準」のこと どうなっていれば、成功なのかを定量的に定義する必要がある。
+なぜか記事内で必要な画像が出せない。。。どうしてだ。。。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://NakagawaShimpei.github.io/blog/post/20200907/" />
+<meta property="article:published_time" content="2020-09-07T22:41:16+09:00" />
+<meta property="article:modified_time" content="2020-09-07T22:41:16+09:00" />
+
+		<meta itemprop="name" content="SonarQube,ODSC">
+<meta itemprop="description" content="1.SonarQube SonarSource社が主に開発を行っている統合的なプログラム品質管理を行える統合品質管理ツール
+SonarQube　バグの発見やバグっぽい箇所を見つけてくれたり、コードの重複量なんかを出してくれる。
+2. ODSC プロジェクトマネジメントの用語 O(objectives),D(Deliverables),SC(Success Criteria)をつないだもの
+O(objectives) プロジェクトの「目的」のこと。 このプロジェクトにおいて何をしたいか、どのような状態になっていたいかなどが当てはまる。
+D(Deliverables) プロジェクトの「成果物」のこと。 ・ システムの設計書 ・ 納品するシステム ・ マニュアル など。 目的を達成するために何が必要なのかをしっかり定義しておく必要がある。 成果物があれば目的が達成できるかを検討する。
+SC(Success Criteria) プロジェクトの「成功基準」のこと どうなっていれば、成功なのかを定量的に定義する必要がある。
+なぜか記事内で必要な画像が出せない。。。どうしてだ。。。">
+<meta itemprop="datePublished" content="2020-09-07T22:41:16+09:00" />
+<meta itemprop="dateModified" content="2020-09-07T22:41:16+09:00" />
+<meta itemprop="wordCount" content="28">
+
+
+
+<meta itemprop="keywords" content="" />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="SonarQube,ODSC"/>
+<meta name="twitter:description" content="1.SonarQube SonarSource社が主に開発を行っている統合的なプログラム品質管理を行える統合品質管理ツール
+SonarQube　バグの発見やバグっぽい箇所を見つけてくれたり、コードの重複量なんかを出してくれる。
+2. ODSC プロジェクトマネジメントの用語 O(objectives),D(Deliverables),SC(Success Criteria)をつないだもの
+O(objectives) プロジェクトの「目的」のこと。 このプロジェクトにおいて何をしたいか、どのような状態になっていたいかなどが当てはまる。
+D(Deliverables) プロジェクトの「成果物」のこと。 ・ システムの設計書 ・ 納品するシステム ・ マニュアル など。 目的を達成するために何が必要なのかをしっかり定義しておく必要がある。 成果物があれば目的が達成できるかを検討する。
+SC(Success Criteria) プロジェクトの「成功基準」のこと どうなっていれば、成功なのかを定量的に定義する必要がある。
+なぜか記事内で必要な画像が出せない。。。どうしてだ。。。"/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/blog/css/style.css">
+	<link rel="stylesheet" href="/blog/css/custom.css">
+
+	<link rel="shortcut icon" href="/blog/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/blog/" title="ぺぇぶろぐ" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/blog/images/image.png">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">ぺぇぶろぐ</div>
+					<div class="logo__tagline">業務で知ったことなんかをアウトプットする場として使っています。</div>
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">SonarQube,ODSC</h1>
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">ぺぇ</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-09-07T22:41:16&#43;09:00">2020-09-07</time></div></div>
+		</header><div class="content post__content clearfix">
+			<h1 id="1sonarqube">1.SonarQube</h1>
+<p>SonarSource社が主に開発を行っている統合的なプログラム品質管理を行える統合品質管理ツール<br>
+<a href="https://www.sonarqube.org/">SonarQube</a>　　</p>
+<p>バグの発見やバグっぽい箇所を見つけてくれたり、コードの重複量なんかを出してくれる。</p>
+<h1 id="2-odsc">2. ODSC</h1>
+<p>プロジェクトマネジメントの用語
+O(objectives),D(Deliverables),SC(Success Criteria)をつないだもの</p>
+<p>O(objectives)
+プロジェクトの「目的」のこと。
+このプロジェクトにおいて何をしたいか、どのような状態になっていたいかなどが当てはまる。</p>
+<p>D(Deliverables)
+プロジェクトの「成果物」のこと。
+・ システムの設計書
+・ 納品するシステム
+・ マニュアル
+など。
+目的を達成するために何が必要なのかをしっかり定義しておく必要がある。
+成果物があれば目的が達成できるかを検討する。</p>
+<p>SC(Success Criteria)
+プロジェクトの「成功基準」のこと
+どうなっていれば、成功なのかを定量的に定義する必要がある。</p>
+<p>なぜか記事内で必要な画像が出せない。。。どうしてだ。。。</p>
+
+		</div>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="ぺぇ avatar" src="/blog/images/image.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name"></span>
+	</div>
+	<div class="authorbox__description">
+		ぽんこつ開発者なので、知らない単語・ツールが多いです。備忘録として新しく知ったことは書いていくことにしています。
+	</div>
+</div>
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2020 John Doe.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/blog/js/menu.js"></script>
+<script src="/blog/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>

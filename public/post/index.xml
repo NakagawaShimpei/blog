@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>https://&lt;USERNAME&gt;.github.io/blog/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Posts on ぺぇぶろぐ</title>
+    <link>https://NakagawaShimpei.github.io/blog/post/</link>
+    <description>Recent content in Posts on ぺぇぶろぐ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 07 Sep 2020 22:41:16 +0900</lastBuildDate>
-    
-	<atom:link href="https://<USERNAME>.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 07 Sep 2020 22:41:16 +0900</lastBuildDate><atom:link href="https://NakagawaShimpei.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Starting Demo</title>
-      <link>https://&lt;USERNAME&gt;.github.io/blog/post/starting-demo/</link>
+      <title>SonarQube,ODSC</title>
+      <link>https://NakagawaShimpei.github.io/blog/post/20200907/</link>
       <pubDate>Mon, 07 Sep 2020 22:41:16 +0900</pubDate>
       
-      <guid>https://&lt;USERNAME&gt;.github.io/blog/post/starting-demo/</guid>
-      <description></description>
+      <guid>https://NakagawaShimpei.github.io/blog/post/20200907/</guid>
+      <description>1.SonarQube SonarSource社が主に開発を行っている統合的なプログラム品質管理を行える統合品質管理ツール
+SonarQube　バグの発見やバグっぽい箇所を見つけてくれたり、コードの重複量なんかを出してくれる。
+2. ODSC プロジェクトマネジメントの用語 O(objectives),D(Deliverables),SC(Success Criteria)をつないだもの
+O(objectives) プロジェクトの「目的」のこと。 このプロジェクトにおいて何をしたいか、どのような状態になっていたいかなどが当てはまる。
+D(Deliverables) プロジェクトの「成果物」のこと。 ・ システムの設計書 ・ 納品するシステム ・ マニュアル など。 目的を達成するために何が必要なのかをしっかり定義しておく必要がある。 成果物があれば目的が達成できるかを検討する。
+SC(Success Criteria) プロジェクトの「成功基準」のこと どうなっていれば、成功なのかを定量的に定義する必要がある。
+なぜか記事内で必要な画像が出せない。。。どうしてだ。。。</description>
     </item>
     
   </channel>
