@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>技術ブログ</title>
+    <title>ぺぇぶろぐ</title>
     <link>https://NakagawaShimpei.github.io/blog/</link>
-    <description>Recent content on 技術ブログ</description>
+    <description>Recent content on ぺぇぶろぐ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 07 Sep 2020 22:41:16 +0900</lastBuildDate>
-    
-	<atom:link href="https://NakagawaShimpei.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 07 Sep 2020 22:41:16 +0900</lastBuildDate><atom:link href="https://NakagawaShimpei.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>初記事</title>
-      <link>https://NakagawaShimpei.github.io/blog/post/%E5%88%9D%E8%A8%98%E4%BA%8B/</link>
+      <title>SonarQube,ODSC</title>
+      <link>https://NakagawaShimpei.github.io/blog/post/20200907/</link>
       <pubDate>Mon, 07 Sep 2020 22:41:16 +0900</pubDate>
       
-      <guid>https://NakagawaShimpei.github.io/blog/post/%E5%88%9D%E8%A8%98%E4%BA%8B/</guid>
-      <description>1. 見出し1です。#1つ=h1タグ 本文を書きます。 単なる改行では文章はそのまま続きます。 1-1. 小見出し1です。##=h2タグ 文章を入れます。
-2つ改行がはいると、pタグで段落分けされます。
-2. 見出し2だよ 文章を入れます。
-改行前に半角スペースを二つ入れておくとbrタグが挿入され、改行になります。</description>
+      <guid>https://NakagawaShimpei.github.io/blog/post/20200907/</guid>
+      <description>1.SonarQube SonarSource社が主に開発を行っている統合的なプログラム品質管理を行える統合品質管理ツール
+SonarQube　バグの発見やバグっぽい箇所を見つけてくれたり、コードの重複量なんかを出してくれる。
+2. ODSC プロジェクトマネジメントの用語 O(objectives),D(Deliverables),SC(Success Criteria)をつないだもの
+O(objectives) プロジェクトの「目的」のこと。 このプロジェクトにおいて何をしたいか、どのような状態になっていたいかなどが当てはまる。
+D(Deliverables) プロジェクトの「成果物」のこと。 ・ システムの設計書 ・ 納品するシステム ・ マニュアル など。 目的を達成するために何が必要なのかをしっかり定義しておく必要がある。 成果物があれば目的が達成できるかを検討する。
+SC(Success Criteria) プロジェクトの「成功基準」のこと どうなっていれば、成功なのかを定量的に定義する必要がある。
+なぜか記事内で必要な画像が出せない。。。どうしてだ。。。</description>
     </item>
     
   </channel>
